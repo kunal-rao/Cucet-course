@@ -1,0 +1,390 @@
+/* NAVIGATION SECTION */
+* {
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  /* body {
+  
+  } */
+  
+  /* LOGO */
+  body{
+    background-color: #FCFCFC;
+  }
+  
+  #logo {
+    display: absolute;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+  }
+  #logo img {
+    width: 7rem;
+    height: 3rem;
+  }
+  #logo-class{
+    display: relative;
+  }
+  /* NAVBAR STYLING */
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #0a82a9f5;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    z-index: 10;
+  }
+  #navbar ul {
+    margin-left: 25rem;
+    display: flex;
+  }
+  #navbar ul li {
+    list-style-type: none;
+    margin-top: 1rem;
+  }
+  #navbar ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+  }
+  #navbar ul li a:hover {
+    background-color: white;
+    color: black;
+  }
+  #navbar ul li button {
+    display: block;
+    margin-top: -0.6rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    border-radius: 0.7rem;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(28, 201, 28);
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  #navbar ul li button:hover {
+    border: 2px solid rgb(28, 201, 28);
+    background-color: white;
+  }
+  
+  /* HOME SECTION  */
+  #home {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    /* margin-bottom: 10em; */
+    align-items: center;
+    justify-content: center;
+  }
+  #home::before {
+    content: "";
+    position: absolute;
+     /* background: 
+     url(require${libraryImg}) no-repeats
+      center center/cover;  */
+    top: 0px;
+    left: 0px;
+    height: 31rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  #home span {
+    display: inline-flex;
+    margin: 1rem;
+  }
+  #home span button {
+    margin: 0.6rem;
+  }
+  /* COURSES- SECTION  */
+  #courses {
+    display: flex;
+    flex-direction: row;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+  .course-options {
+    display: flex;
+    flex-direction: row ;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+   /* background-color: #cde5ed85; */
+   background-color: white;
+   /* box-shadow: 2px 5px 4px gray; */
+   box-shadow: 0px 0px 4px gray;
+  }
+  #courses ul h1{
+    font-size: 2.1rem;
+  }
+  #courses ul li{
+    font-size: 1.8rem;
+  }
+  .course-options:hover{
+   /* box-shadow: none; */
+   /* border: 2px solid rgb(30, 30, 151); */
+   background-color: rgba(245, 238, 238, 0.616);
+  
+  }
+  
+  #courses div img{
+    width: 13rem;
+    height: 13rem;
+    margin: 2rem;
+  }
+  #courses ul {
+    margin: 1rem;
+  
+  }
+  #courses ul li{
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    list-style-type: none;
+  }
+  #courses ul h1{
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  #courses ul button{
+    margin: auto;
+  }
+  
+   /* third - PANEL SECTION  */
+   #founder{
+     margin-top: 2rem;
+     padding: 2rem;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     border: 1px solid white;
+     border-radius: 3rem;
+     background-color: #0a82a9f5;
+   }
+      /* founder section  */
+   /* #founder{
+     margin: 2rem;
+     display: flex;
+     flex-direction: row;
+     background-color: #0a82a9f5;
+     width: 100%;
+     
+   } */
+
+   #founder img{
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     margin-top: 4rem;
+   }
+   #quotes{
+     
+     text-align: left;
+     
+   }
+   #quotesh1{
+     margin-top: -2rem;
+     font-size: 1.8rem;
+   }
+   #quotes h2{
+     font-size: 1.5rem;
+     text-align: right;
+    }
+    #quotes p{
+      font-size: large;
+      margin-left: 2rem;
+      margin-top: 3rem;
+     
+   }
+  
+  
+  /* CONTACT SECTION */
+  /* #contact {
+    width: 40%;
+    background-color: #cb99b9ed;
+  } */
+  /* #contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background-image: url("../img/envelopes-gd81d2e81e_1920.jpg");
+    background-size: contain;
+  } */
+  /* #contact form {
+    width: 17rem;
+  }
+  .contact-box label {
+    font-size: 1.5rem;
+  }
+  .contact-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+  }
+  .contact-box input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+  } */
+  
+        /* TESTIMONY- SECTION  */
+    #testimony-section{
+      margin: 1rem;
+    }
+    #testimony{
+      display: flex;
+    }
+    .testi{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+  #testimony img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+        /* TEACHERS - SECTION  */
+    /* #teachers-section{
+  
+    } */
+    #teachers{
+      display: flex;
+      padding: 1rem 6rem;
+    }
+    
+    .teachers-option{
+      display: flex;
+      width: 100%;
+      margin: 0px 0.5rem;   
+      flex-direction: column;
+      border: 2px solid white;
+      border-radius: 1rem;
+    }
+  
+    #teachers img{
+      width: 100%;
+      height: 13rem;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+    #teachers span{
+      display: inline-block;
+      /* border: 2px solid gray; */
+      /* background-color: lightgray; */
+      font-size: 0.8rem;
+      padding: 0.4rem;
+      margin: 0.4rem;
+    }
+    #teachers h2{
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+    #teachers ul{
+      list-style-type: square;
+      font-size: 1rem;
+      padding: 0.5rem 2rem;
+    }
+    #teachers a{
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      padding: 0.5rem;
+    }
+      
+      /* educators section 
+      #educators{
+        display: flex;
+        
+      }
+      .educator-option{
+       border: 2px solid red;
+      }
+      #educators img{
+        width: 5rem;
+        height: 5rem;
+      } */
+  
+    /* FOOTER SECTION */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+  }
+  
+  /* UTILITY- SECTION    */
+  .h-primary {
+    font-size: 2.8rem;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .h-secondary {
+    font-size: 2rem;
+    padding: 0.8rem;
+  }
+  .center {
+    text-align: center;
+  }
+  .font-family {
+    font-family: "Bree Serif", serif;
+  }
+  .font-family2{
+    font-family: "Ubuntu", sans-serif;
+  }
+  .btn-1 {
+    display: block;
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 0.7rem;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Bree Serif", serif;
+    cursor: pointer;
+  }
+  .btn-2 {
+    display: block;
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 0.7rem;
+    background-color: rgb(28, 201, 28);
+    color: black;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Bree Serif", serif;
+    cursor: pointer;
+  }
+  .btn-2:hover {
+    border: 2px solid rgb(28, 201, 28);
+    background-color: white;
+  }
+  .btn-1:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }

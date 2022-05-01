@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1170px){
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+display: none;
+}
+#home{
+   height: 18rem;
+}
+#home::before{
+    width: 100%;
+    height: 40rem;
+}
+#courses{
+    flex-wrap: wrap;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.course-options{
+  flex-wrap: wrap;
+
+}
+#courses div img{
+   margin: 0.5rem;
+}
+#courses ul h1{
+    margin: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#offer{
+    width: 100%;
+}
+#contact{
+    width: 100%;
+}
+
+ /* TEACHERS SECTION  */
+#teachers{
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+/* .teachers-option{
+    
+} */
+#testimony{
+    flex-wrap: wrap;
+}
+/* UTILITY CLASSES */
+.h-primary{
+    font-size: 1.2rem;
+}
+.btn{
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+.btn2{
+   font-size: 0.8rem;
+   padding: 0.25rem 0.5rem;
+   margin-bottom: 0rem;
+}
+
+ /* OFFER PANEL */
+  
+ #offer-panel{
+     flex-direction: column;
+ }
+}
